@@ -1,4 +1,4 @@
-import CharacterField from '../CharacterField';
+import RoleSelector from '../RoleSelector';
 import TextInput from '../TextInput';
 import './Form.css'
 
@@ -9,7 +9,7 @@ const Form = () => {
                 <h2>Preencha os dados</h2>
                 <TextInput label="Nome" placeholder="Digite o nome do artista"/>
                 <TextInput label="E-mail" placeholder="Digite o email do artista"/>
-                <CharacterField label="Posto"/>
+                <RoleSelector label="Posto"/>
             </form>
 
         </section>

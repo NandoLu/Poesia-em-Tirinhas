@@ -1,15 +1,16 @@
-import './CharacterField.css'
+import './RoleSelector.css'
 
-const CharacterField = (props) => {
-    console.log(props.CharacterField)
+const RoleSelector = (props) => {
+    console.log(props.RoleSelector)
     return (
-        <div className='character-field'>
+        <div className='role-selector'>
             <label>{props.label}</label>
             <select required={props.required}>
                 <option>Artista</option>
                 <option>Orientador</option>
+                <option>Mídia</option>
             </select>
         </div>
     )
 }
-export default CharacterField
+export default RoleSelector
