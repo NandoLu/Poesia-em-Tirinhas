@@ -1,3 +1,4 @@
+import CharacterField from '../CharacterField';
 import TextInput from '../TextInput';
 import './Form.css'
 
@@ -6,7 +7,9 @@ const Form = () => {
         <section className='form'>
             <form>
                 <h2>Preencha os dados</h2>
-                <TextInput label="Bom" placeholder="dia"/>
+                <TextInput label="Nome" placeholder="Digite o nome do artista"/>
+                <TextInput label="E-mail" placeholder="Digite o email do artista"/>
+                <CharacterField label="Posto"/>
             </form>
 
         </section>
