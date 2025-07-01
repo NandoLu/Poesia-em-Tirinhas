@@ -1,3 +1,4 @@
+import InputForm from '../InputForm';
 import RoleSelector from '../RoleSelector';
 import TextInput from '../TextInput';
 import './Form.css'
@@ -9,7 +10,11 @@ const Form = () => {
                 <h2>Preencha os dados</h2>
                 <TextInput label="Nome" placeholder="Digite o nome do artista"/>
                 <TextInput label="E-mail" placeholder="Digite o email do artista"/>
-                <RoleSelector label="Posto"/>
+                <RoleSelector label="Posição"/>
+                <InputForm>
+                Criar Card
+                </InputForm>
+                
             </form>
 
         </section>
