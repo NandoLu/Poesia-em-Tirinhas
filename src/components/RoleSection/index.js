@@ -1,3 +1,5 @@
+import './RoleSection.css'
+
 const RoleSection =(props)=>{
     return(
         <section className='role-section'>

@@ -1,3 +1,13 @@
 .role-section{
-    background-color: blue;
+    padding: 15px;
+    background-color: rgb(209, 209, 210);
+}
+
+.role-section h3{
+    color: #fff;
+    display: inline-block;
+    border-bottom: solid 7px #000000;
+    font-size: 32px;
+    font-weight: 10px;
+    
 }
